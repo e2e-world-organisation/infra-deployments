@@ -13,5 +13,5 @@ generatorOptions:
 configMapGenerator:
 - name: build-pipelines-defaults
   literals:
-  - default_build_bundle=quay.io/redhat-appstudio-tekton-catalog/build-templates-bundle:32fe1b311a47774103c764fbf8407e10c64e5fae
-  - hacbs_build_bundle=quay.io/redhat-appstudio-tekton-catalog/hacbs-templates-bundle:32fe1b311a47774103c764fbf8407e10c64e5fae
+  - default_build_bundle=quay.io/redhat-appstudio-tekton-catalog/pipeline-docker-build:e694e3e8bf4b31f2d383a37ac18a49f58a2221d8
+  - hacbs_build_bundle=quay.io/redhat-appstudio-tekton-catalog/pipeline-docker-build:e694e3e8bf4b31f2d383a37ac18a49f58a2221d8
